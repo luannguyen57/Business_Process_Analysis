@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_0gehmfj",
+      "key": "Email",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "yes",
+          "value": "1"
+        },
+        {
+          "label": "no",
+          "value": "2"
+        }
+      ],
+      "label": "Approved?",
+      "type": "select",
+      "id": "Field_0smiupy",
+      "key": "approve",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "CheckCV",
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.16"
+}

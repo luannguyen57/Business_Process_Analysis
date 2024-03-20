@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "text": "Thông tin khách hàng",
+      "type": "text",
+      "id": "Field_0kua119"
+    },
+    {
+      "label": "Ho Ten",
+      "type": "textfield",
+      "id": "Field_1y40ss4",
+      "key": "fullname1",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "enter_fullname"
+      }
+    },
+    {
+      "label": "So Dien Thoai",
+      "type": "textfield",
+      "id": "Field_0w940sj",
+      "key": "phone",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "enter_phone"
+      }
+    },
+    {
+      "label": "Dia Chi",
+      "type": "textfield",
+      "id": "Field_18nt3hu",
+      "key": "address",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Noi Den",
+      "type": "textfield",
+      "id": "Field_00ge9nu",
+      "key": "destination"
+    }
+  ],
+  "type": "default",
+  "id": "nhapthongtin",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}

@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "label": "Thông tin nhập đã chúng chưa",
+      "type": "textfield",
+      "id": "Field_1a55qi3",
+      "key": "confirm",
+      "disabled": false,
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "xacnhanthongtin",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}
